@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('bg.jpg'); /* Set your background image here */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  background-color: rgba(238, 130, 238, 0.7); /* Violet background with some transparency */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.list-group-item {
+  background-color: #ee82ee; /* Violet background for list items */
+  color: white;
+}
+
+.list-group-item:hover {
+  background-color: #da70d6; /* Darker violet on hover */
+}
+
+.btn-primary {
+  background-color: #8a2be2; /* Violet color for buttons */
+}
+
+.btn-danger {
+  background-color: #ff6347; /* Red color for delete button */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
